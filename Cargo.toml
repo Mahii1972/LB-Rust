@@ -8,3 +8,5 @@ tokio = { version = "1.37.0", features = ["full"] }
 reqwest = {version = "0.12.5", features = ["json"]}
 futures = { version = "0.3.30", features = ["compat"] }
 socket2 = "0.4.9"
+async-nats = "0.35.1"
+futures-util = "0.3.30"
